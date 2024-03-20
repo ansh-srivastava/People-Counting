@@ -1,9 +1,3 @@
-"""
-This module sends emails with attachments to the participants
-Reference - https://developers.google.com/gmail/api/quickstart/python
-
-In order to run this module, you need to enable Gmail API and download client_secrets.json file
-"""
 
 from email import encoders
 from email.mime.base import MIMEBase
@@ -191,8 +185,8 @@ if __name__ == '__main__':
     # Uncomment the following lines to run the code locally
     # set sender and recipient accordingly
     # sender must be a gmail account using which you have enabled the gmail API
-    '''prepare_and_send_email(sender='support.ai@giindia.com', 
-                           recipient='anubhavpatrick@gmail.com',
+    '''prepare_and_send_email(sender='ansh.srivastava0987@gmail.com', 
+                           recipient='ansh2020csai124@abesit.edu.in',
                            subject= 'Greeting from Global Infoventures', 
                            message_text= 'Hello, this is a test email from Global Infoventures',
                            im0= cv2.imread('test.jpg'))'''
